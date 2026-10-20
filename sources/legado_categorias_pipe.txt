@@ -1,0 +1,4 @@
+categoria|descricao
+ECONOMICO|Veiculos compactos
+SUV|Veiculos utilitarios
+EXECUTIVO|Veiculos premium

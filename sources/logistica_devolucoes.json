@@ -1,0 +1,1002 @@
+[
+  {
+    "id_locacao": "LOC00001",
+    "data_devolucao": "2026-10-21",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00002",
+    "data_devolucao": "2026-09-30",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00003",
+    "data_devolucao": "2026-10-12",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00004",
+    "data_devolucao": "2026-09-07",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00005",
+    "data_devolucao": "2026-10-10",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00006",
+    "data_devolucao": "2026-10-01",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00007",
+    "data_devolucao": "2026-10-06",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00008",
+    "data_devolucao": "2026-09-14",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00009",
+    "data_devolucao": "2026-09-10",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00010",
+    "data_devolucao": "2026-10-17",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00011",
+    "data_devolucao": "2026-10-11",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00012",
+    "data_devolucao": "2026-10-06",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00013",
+    "data_devolucao": "2026-10-10",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00014",
+    "data_devolucao": "2026-10-03",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00015",
+    "data_devolucao": "2026-10-09",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00016",
+    "data_devolucao": "2026-10-06",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00017",
+    "data_devolucao": "2026-09-09",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00018",
+    "data_devolucao": "2026-09-26",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00019",
+    "data_devolucao": "2026-10-16",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00020",
+    "data_devolucao": "2026-10-10",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00021",
+    "data_devolucao": "2026-10-05",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00022",
+    "data_devolucao": "2026-09-21",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00023",
+    "data_devolucao": "2026-09-25",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00024",
+    "data_devolucao": "2026-09-11",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00025",
+    "data_devolucao": "2026-10-11",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00026",
+    "data_devolucao": "2026-09-21",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00027",
+    "data_devolucao": "2026-09-05",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00028",
+    "data_devolucao": "2026-09-23",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00029",
+    "data_devolucao": "2026-10-15",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00030",
+    "data_devolucao": "2026-09-14",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00031",
+    "data_devolucao": "2026-09-08",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00032",
+    "data_devolucao": "2026-10-09",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00033",
+    "data_devolucao": "2026-09-19",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00034",
+    "data_devolucao": "2026-09-26",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00035",
+    "data_devolucao": "2026-10-18",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00036",
+    "data_devolucao": "2026-09-18",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00037",
+    "data_devolucao": "2026-10-15",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00038",
+    "data_devolucao": "2026-09-23",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00039",
+    "data_devolucao": "2026-09-16",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00040",
+    "data_devolucao": "2026-10-07",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00041",
+    "data_devolucao": "2026-09-19",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00042",
+    "data_devolucao": "2026-10-12",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00043",
+    "data_devolucao": "2026-09-13",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00044",
+    "data_devolucao": "2026-09-18",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00045",
+    "data_devolucao": "2026-10-22",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00046",
+    "data_devolucao": "2026-10-13",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00047",
+    "data_devolucao": "2026-09-09",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00048",
+    "data_devolucao": "2026-10-16",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00049",
+    "data_devolucao": "2026-10-18",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00050",
+    "data_devolucao": "2026-10-02",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00051",
+    "data_devolucao": "2026-10-19",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00052",
+    "data_devolucao": "2026-10-07",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00053",
+    "data_devolucao": "2026-10-15",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00054",
+    "data_devolucao": "2026-09-15",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00055",
+    "data_devolucao": "2026-10-06",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00056",
+    "data_devolucao": "2026-10-05",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00057",
+    "data_devolucao": "2026-10-08",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00058",
+    "data_devolucao": "2026-10-03",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00059",
+    "data_devolucao": "2026-09-26",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00060",
+    "data_devolucao": "2026-10-04",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00061",
+    "data_devolucao": "2026-09-06",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00062",
+    "data_devolucao": "2026-09-23",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00063",
+    "data_devolucao": "2026-10-02",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00064",
+    "data_devolucao": "2026-10-14",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00065",
+    "data_devolucao": "2026-09-25",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00066",
+    "data_devolucao": "2026-09-27",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00067",
+    "data_devolucao": "2026-09-30",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00068",
+    "data_devolucao": "2026-09-22",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00069",
+    "data_devolucao": "2026-10-21",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00070",
+    "data_devolucao": "2026-10-13",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00071",
+    "data_devolucao": "2026-10-17",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00072",
+    "data_devolucao": "2026-09-29",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00073",
+    "data_devolucao": "2026-09-21",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00074",
+    "data_devolucao": "2026-10-07",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00075",
+    "data_devolucao": "2026-10-06",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00076",
+    "data_devolucao": "2026-10-12",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00077",
+    "data_devolucao": "2026-09-16",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00078",
+    "data_devolucao": "2026-09-17",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00079",
+    "data_devolucao": "2026-09-14",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00080",
+    "data_devolucao": "2026-10-07",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00081",
+    "data_devolucao": "2026-10-17",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00082",
+    "data_devolucao": "2026-10-18",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00083",
+    "data_devolucao": "2026-10-18",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00084",
+    "data_devolucao": "2026-09-22",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00085",
+    "data_devolucao": "2026-09-21",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00086",
+    "data_devolucao": "2026-09-19",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00087",
+    "data_devolucao": "2026-09-09",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00088",
+    "data_devolucao": "2026-09-26",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00089",
+    "data_devolucao": "2026-09-10",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00090",
+    "data_devolucao": "2026-09-25",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00091",
+    "data_devolucao": "2026-10-05",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00092",
+    "data_devolucao": "2026-09-18",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00093",
+    "data_devolucao": "2026-09-12",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00094",
+    "data_devolucao": "2026-10-14",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00095",
+    "data_devolucao": "2026-10-19",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00096",
+    "data_devolucao": "2026-09-13",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00097",
+    "data_devolucao": "2026-09-27",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00098",
+    "data_devolucao": "2026-09-11",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00099",
+    "data_devolucao": "2026-10-11",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00100",
+    "data_devolucao": "2026-10-06",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00101",
+    "data_devolucao": "2026-10-11",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00102",
+    "data_devolucao": "2026-09-21",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00103",
+    "data_devolucao": "2026-10-11",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00104",
+    "data_devolucao": "2026-10-08",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00105",
+    "data_devolucao": "2026-09-19",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00106",
+    "data_devolucao": "2026-09-28",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00107",
+    "data_devolucao": "2026-10-17",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00108",
+    "data_devolucao": "2026-09-16",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00109",
+    "data_devolucao": "2026-10-14",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00110",
+    "data_devolucao": "2026-09-11",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00111",
+    "data_devolucao": "2026-10-17",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00112",
+    "data_devolucao": "2026-09-11",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00113",
+    "data_devolucao": "2026-10-18",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00114",
+    "data_devolucao": "2026-10-10",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00115",
+    "data_devolucao": "2026-09-17",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00116",
+    "data_devolucao": "2026-09-25",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00117",
+    "data_devolucao": "2026-09-18",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00118",
+    "data_devolucao": "2026-10-21",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00119",
+    "data_devolucao": "2026-09-30",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00120",
+    "data_devolucao": "2026-09-10",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00121",
+    "data_devolucao": "2026-09-15",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00122",
+    "data_devolucao": "2026-09-25",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00123",
+    "data_devolucao": "2026-09-09",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00124",
+    "data_devolucao": "2026-10-12",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00125",
+    "data_devolucao": "2026-10-19",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00126",
+    "data_devolucao": "2026-09-25",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00127",
+    "data_devolucao": "2026-10-11",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00128",
+    "data_devolucao": "2026-09-13",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00129",
+    "data_devolucao": "2026-09-11",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00130",
+    "data_devolucao": "2026-09-02",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00131",
+    "data_devolucao": "2026-09-19",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00132",
+    "data_devolucao": "2026-09-16",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00133",
+    "data_devolucao": "2026-10-04",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00134",
+    "data_devolucao": "2026-10-19",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00135",
+    "data_devolucao": "2026-09-06",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00136",
+    "data_devolucao": "2026-09-29",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00137",
+    "data_devolucao": "2026-09-13",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00138",
+    "data_devolucao": "2026-10-11",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00139",
+    "data_devolucao": "2026-09-28",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00140",
+    "data_devolucao": "2026-09-06",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00141",
+    "data_devolucao": "2026-09-25",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00142",
+    "data_devolucao": "2026-10-20",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00143",
+    "data_devolucao": "2026-10-10",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00144",
+    "data_devolucao": "2026-10-07",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00145",
+    "data_devolucao": "2026-09-14",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00146",
+    "data_devolucao": "2026-09-09",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00147",
+    "data_devolucao": "2026-09-09",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00148",
+    "data_devolucao": "2026-09-29",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00149",
+    "data_devolucao": "2026-09-27",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00150",
+    "data_devolucao": "2026-10-08",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00151",
+    "data_devolucao": "2026-09-16",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00152",
+    "data_devolucao": "2026-10-10",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00153",
+    "data_devolucao": "2026-10-10",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00154",
+    "data_devolucao": "2026-09-23",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00155",
+    "data_devolucao": "2026-09-16",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00156",
+    "data_devolucao": "2026-09-08",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00157",
+    "data_devolucao": "2026-09-16",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00158",
+    "data_devolucao": "2026-09-20",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00159",
+    "data_devolucao": "2026-09-25",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00160",
+    "data_devolucao": "2026-09-24",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00161",
+    "data_devolucao": "2026-10-12",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00162",
+    "data_devolucao": "2026-10-22",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00163",
+    "data_devolucao": "2026-10-09",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00164",
+    "data_devolucao": "2026-10-09",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00165",
+    "data_devolucao": "2026-09-30",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00166",
+    "data_devolucao": "2026-10-09",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00167",
+    "data_devolucao": "2026-09-22",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00168",
+    "data_devolucao": "2026-09-13",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00169",
+    "data_devolucao": "2026-09-30",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00170",
+    "data_devolucao": "2026-10-03",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00171",
+    "data_devolucao": "2026-10-20",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00172",
+    "data_devolucao": "2026-09-24",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00173",
+    "data_devolucao": "2026-10-06",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00174",
+    "data_devolucao": "2026-09-22",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00175",
+    "data_devolucao": "2026-10-12",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00176",
+    "data_devolucao": "2026-10-07",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00177",
+    "data_devolucao": "2026-09-21",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00178",
+    "data_devolucao": "2026-10-06",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00179",
+    "data_devolucao": "2026-10-15",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00180",
+    "data_devolucao": "2026-09-29",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00181",
+    "data_devolucao": "2026-09-22",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00182",
+    "data_devolucao": "2026-10-11",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00183",
+    "data_devolucao": "2026-09-09",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00184",
+    "data_devolucao": "2026-10-20",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00185",
+    "data_devolucao": "2026-09-22",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00186",
+    "data_devolucao": "2026-10-05",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00187",
+    "data_devolucao": "2026-09-17",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00188",
+    "data_devolucao": "2026-10-08",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00189",
+    "data_devolucao": "2026-09-14",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00190",
+    "data_devolucao": "2026-09-23",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00191",
+    "data_devolucao": "2026-10-06",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00192",
+    "data_devolucao": "2026-10-03",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00193",
+    "data_devolucao": "2026-09-09",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00194",
+    "data_devolucao": "2026-09-25",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00195",
+    "data_devolucao": "2026-10-16",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00196",
+    "data_devolucao": "2026-09-30",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00197",
+    "data_devolucao": "2026-10-11",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00198",
+    "data_devolucao": "2026-10-04",
+    "vistoria": "OK"
+  },
+  {
+    "id_locacao": "LOC00199",
+    "data_devolucao": "2026-09-21",
+    "vistoria": "PENDENTE"
+  },
+  {
+    "id_locacao": "LOC00200",
+    "data_devolucao": "2026-09-08",
+    "vistoria": "OK"
+  }
+]

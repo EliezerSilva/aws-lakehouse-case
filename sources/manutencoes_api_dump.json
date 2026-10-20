@@ -1,0 +1,156 @@
+[
+  {
+    "id_manutencao": "M0009",
+    "id_veiculo": "V0073",
+    "data_entrada": "2026-09-02",
+    "tipo": "PREVENTIVA",
+    "custo": "237.21"
+  },
+  {
+    "id_manutencao": "M0018",
+    "id_veiculo": "V0047",
+    "data_entrada": "2026-09-25",
+    "tipo": "PREVENTIVA",
+    "custo": "169.05"
+  },
+  {
+    "id_manutencao": "M0027",
+    "id_veiculo": "V0014",
+    "data_entrada": "2026-09-02",
+    "tipo": "PREVENTIVA",
+    "custo": "769.03"
+  },
+  {
+    "id_manutencao": "M0036",
+    "id_veiculo": "V0002",
+    "data_entrada": "2026-09-09",
+    "tipo": "PREVENTIVA",
+    "custo": "410.13"
+  },
+  {
+    "id_manutencao": "M0045",
+    "id_veiculo": "V0044",
+    "data_entrada": "2026-10-14",
+    "tipo": "PREVENTIVA",
+    "custo": "810.62"
+  },
+  {
+    "id_manutencao": "M0054",
+    "id_veiculo": "V0008",
+    "data_entrada": "2026-09-13",
+    "tipo": "PREVENTIVA",
+    "custo": "209.78"
+  },
+  {
+    "id_manutencao": "M0063",
+    "id_veiculo": "V0052",
+    "data_entrada": "2026-09-23",
+    "tipo": "PREVENTIVA",
+    "custo": "948.01"
+  },
+  {
+    "id_manutencao": "M0072",
+    "id_veiculo": "V0005",
+    "data_entrada": "2026-09-25",
+    "tipo": "PREVENTIVA",
+    "custo": "278.12"
+  },
+  {
+    "id_manutencao": "M0081",
+    "id_veiculo": "V0005",
+    "data_entrada": "2026-10-12",
+    "tipo": "PREVENTIVA",
+    "custo": "781.01"
+  },
+  {
+    "id_manutencao": "M0090",
+    "id_veiculo": "V0016",
+    "data_entrada": "2026-09-17",
+    "tipo": "PREVENTIVA",
+    "custo": "782.44"
+  },
+  {
+    "id_manutencao": "M0099",
+    "id_veiculo": "V0060",
+    "data_entrada": "2026-10-03",
+    "tipo": "PREVENTIVA",
+    "custo": "537.90"
+  },
+  {
+    "id_manutencao": "M0108",
+    "id_veiculo": "V0072",
+    "data_entrada": "2026-09-09",
+    "tipo": "PREVENTIVA",
+    "custo": "893.65"
+  },
+  {
+    "id_manutencao": "M0117",
+    "id_veiculo": "V0064",
+    "data_entrada": "2026-09-16",
+    "tipo": "PREVENTIVA",
+    "custo": "316.27"
+  },
+  {
+    "id_manutencao": "M0126",
+    "id_veiculo": "V0012",
+    "data_entrada": "2026-09-16",
+    "tipo": "PREVENTIVA",
+    "custo": "319.74"
+  },
+  {
+    "id_manutencao": "M0135",
+    "id_veiculo": "V0007",
+    "data_entrada": "2026-09-04",
+    "tipo": "PREVENTIVA",
+    "custo": "228.10"
+  },
+  {
+    "id_manutencao": "M0144",
+    "id_veiculo": "V0018",
+    "data_entrada": "2026-09-29",
+    "tipo": "PREVENTIVA",
+    "custo": "344.90"
+  },
+  {
+    "id_manutencao": "M0153",
+    "id_veiculo": "V0023",
+    "data_entrada": "2026-10-07",
+    "tipo": "PREVENTIVA",
+    "custo": "142.50"
+  },
+  {
+    "id_manutencao": "M0162",
+    "id_veiculo": "V0036",
+    "data_entrada": "2026-10-15",
+    "tipo": "PREVENTIVA",
+    "custo": "583.85"
+  },
+  {
+    "id_manutencao": "M0171",
+    "id_veiculo": "V0002",
+    "data_entrada": "2026-10-13",
+    "tipo": "PREVENTIVA",
+    "custo": "132.80"
+  },
+  {
+    "id_manutencao": "M0180",
+    "id_veiculo": "V0015",
+    "data_entrada": "2026-09-23",
+    "tipo": "PREVENTIVA",
+    "custo": "338.19"
+  },
+  {
+    "id_manutencao": "M0189",
+    "id_veiculo": "V0077",
+    "data_entrada": "2026-09-06",
+    "tipo": "PREVENTIVA",
+    "custo": "747.89"
+  },
+  {
+    "id_manutencao": "M0198",
+    "id_veiculo": "V0019",
+    "data_entrada": "2026-09-25",
+    "tipo": "PREVENTIVA",
+    "custo": "524.40"
+  }
+]

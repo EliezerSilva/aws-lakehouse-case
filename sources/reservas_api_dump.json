@@ -1,0 +1,1409 @@
+[
+  {
+    "id_reserva": "R00001",
+    "id_cliente": "C0043",
+    "id_veiculo": "V0003",
+    "data_reserva": "2026-10-14",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00002",
+    "id_cliente": "C0048",
+    "id_veiculo": "V0002",
+    "data_reserva": "2026-09-24",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00003",
+    "id_cliente": "C0038",
+    "id_veiculo": "V0018",
+    "data_reserva": "2026-10-03",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00004",
+    "id_cliente": "C0027",
+    "id_veiculo": "V0072",
+    "data_reserva": "2026-09-06",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00005",
+    "id_cliente": "C0034",
+    "id_veiculo": "V0079",
+    "data_reserva": "2026-10-01",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00006",
+    "id_cliente": "C0049",
+    "id_veiculo": "V0049",
+    "data_reserva": "2026-09-26",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00007",
+    "id_cliente": "C0038",
+    "id_veiculo": "V0038",
+    "data_reserva": "2026-10-02",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00008",
+    "id_cliente": "C0029",
+    "id_veiculo": "V0036",
+    "data_reserva": "2026-09-11",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00009",
+    "id_cliente": "C0024",
+    "id_veiculo": "V0073",
+    "data_reserva": "2026-09-02",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00010",
+    "id_cliente": "C0023",
+    "id_veiculo": "V0043",
+    "data_reserva": "2026-10-12",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00011",
+    "id_cliente": "C0021",
+    "id_veiculo": "V0054",
+    "data_reserva": "2026-10-02",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00012",
+    "id_cliente": "C0025",
+    "id_veiculo": "V0036",
+    "data_reserva": "2026-10-01",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00013",
+    "id_cliente": "C0023",
+    "id_veiculo": "V0052",
+    "data_reserva": "2026-10-07",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00014",
+    "id_cliente": "C0039",
+    "id_veiculo": "V0028",
+    "data_reserva": "2026-10-01",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00015",
+    "id_cliente": "C0010",
+    "id_veiculo": "V0025",
+    "data_reserva": "2026-10-01",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00016",
+    "id_cliente": "C0049",
+    "id_veiculo": "V0031",
+    "data_reserva": "2026-10-03",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00017",
+    "id_cliente": "C0025",
+    "id_veiculo": "V0026",
+    "data_reserva": "2026-09-03",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00018",
+    "id_cliente": "C0013",
+    "id_veiculo": "V0047",
+    "data_reserva": "2026-09-25",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00019",
+    "id_cliente": "C0021",
+    "id_veiculo": "V0046",
+    "data_reserva": "2026-10-07",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00020",
+    "id_cliente": "C0018",
+    "id_veiculo": "V0004",
+    "data_reserva": "2026-10-05",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00021",
+    "id_cliente": "C0024",
+    "id_veiculo": "V0039",
+    "data_reserva": "2026-09-29",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00022",
+    "id_cliente": "C0017",
+    "id_veiculo": "V0021",
+    "data_reserva": "2026-09-20",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00023",
+    "id_cliente": "C0007",
+    "id_veiculo": "V0009",
+    "data_reserva": "2026-09-24",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00024",
+    "id_cliente": "C0016",
+    "id_veiculo": "V0064",
+    "data_reserva": "2026-09-04",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00025",
+    "id_cliente": "C0049",
+    "id_veiculo": "V0075",
+    "data_reserva": "2026-10-03",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00026",
+    "id_cliente": "C0031",
+    "id_veiculo": "V0014",
+    "data_reserva": "2026-09-19",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00027",
+    "id_cliente": "C0042",
+    "id_veiculo": "V0014",
+    "data_reserva": "2026-09-02",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00028",
+    "id_cliente": "C0020",
+    "id_veiculo": "V0003",
+    "data_reserva": "2026-09-14",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00029",
+    "id_cliente": "C0044",
+    "id_veiculo": "V0057",
+    "data_reserva": "2026-10-06",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00030",
+    "id_cliente": "C0036",
+    "id_veiculo": "V0037",
+    "data_reserva": "2026-09-12",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00031",
+    "id_cliente": "C0027",
+    "id_veiculo": "V0073",
+    "data_reserva": "2026-09-01",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00032",
+    "id_cliente": "C0012",
+    "id_veiculo": "V0034",
+    "data_reserva": "2026-10-08",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00033",
+    "id_cliente": "C0038",
+    "id_veiculo": "V0037",
+    "data_reserva": "2026-09-10",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00034",
+    "id_cliente": "C0023",
+    "id_veiculo": "V0008",
+    "data_reserva": "2026-09-21",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00035",
+    "id_cliente": "C0014",
+    "id_veiculo": "V0015",
+    "data_reserva": "2026-10-12",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00036",
+    "id_cliente": "C0042",
+    "id_veiculo": "V0002",
+    "data_reserva": "2026-09-09",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00037",
+    "id_cliente": "C0028",
+    "id_veiculo": "V0068",
+    "data_reserva": "2026-10-12",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00038",
+    "id_cliente": "C0048",
+    "id_veiculo": "V0079",
+    "data_reserva": "2026-09-20",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00039",
+    "id_cliente": "C0033",
+    "id_veiculo": "V0052",
+    "data_reserva": "2026-09-13",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00040",
+    "id_cliente": "C0009",
+    "id_veiculo": "V0050",
+    "data_reserva": "2026-10-01",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00041",
+    "id_cliente": "C0044",
+    "id_veiculo": "V0052",
+    "data_reserva": "2026-09-18",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00042",
+    "id_cliente": "C0025",
+    "id_veiculo": "V0037",
+    "data_reserva": "2026-10-03",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00043",
+    "id_cliente": "C0039",
+    "id_veiculo": "V0041",
+    "data_reserva": "2026-09-07",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00044",
+    "id_cliente": "C0003",
+    "id_veiculo": "V0076",
+    "data_reserva": "2026-09-12",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00045",
+    "id_cliente": "C0038",
+    "id_veiculo": "V0044",
+    "data_reserva": "2026-10-14",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00046",
+    "id_cliente": "C0020",
+    "id_veiculo": "V0067",
+    "data_reserva": "2026-10-08",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00047",
+    "id_cliente": "C0027",
+    "id_veiculo": "V0029",
+    "data_reserva": "2026-09-06",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00048",
+    "id_cliente": "C0045",
+    "id_veiculo": "V0048",
+    "data_reserva": "2026-10-12",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00049",
+    "id_cliente": "C0005",
+    "id_veiculo": "V0035",
+    "data_reserva": "2026-10-14",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00050",
+    "id_cliente": "C0014",
+    "id_veiculo": "V0007",
+    "data_reserva": "2026-09-23",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00051",
+    "id_cliente": "C0027",
+    "id_veiculo": "V0062",
+    "data_reserva": "2026-10-11",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00052",
+    "id_cliente": "C0017",
+    "id_veiculo": "V0037",
+    "data_reserva": "2026-09-29",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00053",
+    "id_cliente": "C0044",
+    "id_veiculo": "V0075",
+    "data_reserva": "2026-10-12",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00054",
+    "id_cliente": "C0035",
+    "id_veiculo": "V0008",
+    "data_reserva": "2026-09-13",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00055",
+    "id_cliente": "C0015",
+    "id_veiculo": "V0063",
+    "data_reserva": "2026-09-27",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00056",
+    "id_cliente": "C0016",
+    "id_veiculo": "V0070",
+    "data_reserva": "2026-10-04",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00057",
+    "id_cliente": "C0011",
+    "id_veiculo": "V0070",
+    "data_reserva": "2026-09-30",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00058",
+    "id_cliente": "C0050",
+    "id_veiculo": "V0051",
+    "data_reserva": "2026-09-27",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00059",
+    "id_cliente": "C0043",
+    "id_veiculo": "V0052",
+    "data_reserva": "2026-09-21",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00060",
+    "id_cliente": "C0020",
+    "id_veiculo": "V0015",
+    "data_reserva": "2026-09-26",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00061",
+    "id_cliente": "C0013",
+    "id_veiculo": "V0058",
+    "data_reserva": "2026-09-03",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00062",
+    "id_cliente": "C0009",
+    "id_veiculo": "V0076",
+    "data_reserva": "2026-09-16",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00063",
+    "id_cliente": "C0031",
+    "id_veiculo": "V0052",
+    "data_reserva": "2026-09-23",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00064",
+    "id_cliente": "C0010",
+    "id_veiculo": "V0041",
+    "data_reserva": "2026-10-07",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00065",
+    "id_cliente": "C0019",
+    "id_veiculo": "V0019",
+    "data_reserva": "2026-09-23",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00066",
+    "id_cliente": "C0028",
+    "id_veiculo": "V0033",
+    "data_reserva": "2026-09-19",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00067",
+    "id_cliente": "C0030",
+    "id_veiculo": "V0051",
+    "data_reserva": "2026-09-21",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00068",
+    "id_cliente": "C0035",
+    "id_veiculo": "V0045",
+    "data_reserva": "2026-09-14",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00069",
+    "id_cliente": "C0017",
+    "id_veiculo": "V0063",
+    "data_reserva": "2026-10-14",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00070",
+    "id_cliente": "C0047",
+    "id_veiculo": "V0067",
+    "data_reserva": "2026-10-12",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00071",
+    "id_cliente": "C0043",
+    "id_veiculo": "V0052",
+    "data_reserva": "2026-10-12",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00072",
+    "id_cliente": "C0022",
+    "id_veiculo": "V0005",
+    "data_reserva": "2026-09-25",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00073",
+    "id_cliente": "C0017",
+    "id_veiculo": "V0080",
+    "data_reserva": "2026-09-15",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00074",
+    "id_cliente": "C0013",
+    "id_veiculo": "V0037",
+    "data_reserva": "2026-09-29",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00075",
+    "id_cliente": "C0021",
+    "id_veiculo": "V0001",
+    "data_reserva": "2026-10-03",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00076",
+    "id_cliente": "C0001",
+    "id_veiculo": "V0077",
+    "data_reserva": "2026-10-04",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00077",
+    "id_cliente": "C0006",
+    "id_veiculo": "V0066",
+    "data_reserva": "2026-09-08",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00078",
+    "id_cliente": "C0027",
+    "id_veiculo": "V0012",
+    "data_reserva": "2026-09-11",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00079",
+    "id_cliente": "C0013",
+    "id_veiculo": "V0048",
+    "data_reserva": "2026-09-05",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00080",
+    "id_cliente": "C0004",
+    "id_veiculo": "V0078",
+    "data_reserva": "2026-09-30",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00081",
+    "id_cliente": "C0043",
+    "id_veiculo": "V0005",
+    "data_reserva": "2026-10-12",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00082",
+    "id_cliente": "C0015",
+    "id_veiculo": "V0045",
+    "data_reserva": "2026-10-09",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00083",
+    "id_cliente": "C0002",
+    "id_veiculo": "V0005",
+    "data_reserva": "2026-10-11",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00084",
+    "id_cliente": "C0039",
+    "id_veiculo": "V0067",
+    "data_reserva": "2026-09-14",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00085",
+    "id_cliente": "C0033",
+    "id_veiculo": "V0003",
+    "data_reserva": "2026-09-19",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00086",
+    "id_cliente": "C0002",
+    "id_veiculo": "V0019",
+    "data_reserva": "2026-09-16",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00087",
+    "id_cliente": "C0043",
+    "id_veiculo": "V0026",
+    "data_reserva": "2026-09-01",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00088",
+    "id_cliente": "C0039",
+    "id_veiculo": "V0018",
+    "data_reserva": "2026-09-20",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00089",
+    "id_cliente": "C0019",
+    "id_veiculo": "V0010",
+    "data_reserva": "2026-09-03",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00090",
+    "id_cliente": "C0015",
+    "id_veiculo": "V0016",
+    "data_reserva": "2026-09-17",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00091",
+    "id_cliente": "C0009",
+    "id_veiculo": "V0050",
+    "data_reserva": "2026-10-01",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00092",
+    "id_cliente": "C0035",
+    "id_veiculo": "V0055",
+    "data_reserva": "2026-09-09",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00093",
+    "id_cliente": "C0036",
+    "id_veiculo": "V0074",
+    "data_reserva": "2026-09-11",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00094",
+    "id_cliente": "C0045",
+    "id_veiculo": "V0023",
+    "data_reserva": "2026-10-07",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00095",
+    "id_cliente": "C0002",
+    "id_veiculo": "V0004",
+    "data_reserva": "2026-10-11",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00096",
+    "id_cliente": "C0037",
+    "id_veiculo": "V0037",
+    "data_reserva": "2026-09-05",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00097",
+    "id_cliente": "C0008",
+    "id_veiculo": "V0060",
+    "data_reserva": "2026-09-22",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00098",
+    "id_cliente": "C0047",
+    "id_veiculo": "V0061",
+    "data_reserva": "2026-09-08",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00099",
+    "id_cliente": "C0013",
+    "id_veiculo": "V0060",
+    "data_reserva": "2026-10-03",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00100",
+    "id_cliente": "C0049",
+    "id_veiculo": "V0065",
+    "data_reserva": "2026-09-28",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00101",
+    "id_cliente": "C0044",
+    "id_veiculo": "V0070",
+    "data_reserva": "2026-10-07",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00102",
+    "id_cliente": "C0048",
+    "id_veiculo": "V0080",
+    "data_reserva": "2026-09-17",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00103",
+    "id_cliente": "C0037",
+    "id_veiculo": "V0001",
+    "data_reserva": "2026-10-06",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00104",
+    "id_cliente": "C0042",
+    "id_veiculo": "V0071",
+    "data_reserva": "2026-09-30",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00105",
+    "id_cliente": "C0007",
+    "id_veiculo": "V0023",
+    "data_reserva": "2026-09-12",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00106",
+    "id_cliente": "C0009",
+    "id_veiculo": "V0049",
+    "data_reserva": "2026-09-21",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00107",
+    "id_cliente": "C0038",
+    "id_veiculo": "V0010",
+    "data_reserva": "2026-10-10",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00108",
+    "id_cliente": "C0009",
+    "id_veiculo": "V0072",
+    "data_reserva": "2026-09-09",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00109",
+    "id_cliente": "C0023",
+    "id_veiculo": "V0037",
+    "data_reserva": "2026-10-10",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00110",
+    "id_cliente": "C0033",
+    "id_veiculo": "V0037",
+    "data_reserva": "2026-09-04",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00111",
+    "id_cliente": "C0046",
+    "id_veiculo": "V0073",
+    "data_reserva": "2026-10-14",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00112",
+    "id_cliente": "C0025",
+    "id_veiculo": "V0042",
+    "data_reserva": "2026-09-05",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00113",
+    "id_cliente": "C0018",
+    "id_veiculo": "V0045",
+    "data_reserva": "2026-10-15",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00114",
+    "id_cliente": "C0015",
+    "id_veiculo": "V0030",
+    "data_reserva": "2026-10-04",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00115",
+    "id_cliente": "C0035",
+    "id_veiculo": "V0063",
+    "data_reserva": "2026-09-10",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00116",
+    "id_cliente": "C0029",
+    "id_veiculo": "V0040",
+    "data_reserva": "2026-09-19",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00117",
+    "id_cliente": "C0047",
+    "id_veiculo": "V0064",
+    "data_reserva": "2026-09-16",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00118",
+    "id_cliente": "C0044",
+    "id_veiculo": "V0035",
+    "data_reserva": "2026-10-14",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00119",
+    "id_cliente": "C0005",
+    "id_veiculo": "V0030",
+    "data_reserva": "2026-09-24",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00120",
+    "id_cliente": "C0039",
+    "id_veiculo": "V0007",
+    "data_reserva": "2026-09-09",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00121",
+    "id_cliente": "C0041",
+    "id_veiculo": "V0001",
+    "data_reserva": "2026-09-06",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00122",
+    "id_cliente": "C0023",
+    "id_veiculo": "V0059",
+    "data_reserva": "2026-09-17",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00123",
+    "id_cliente": "C0007",
+    "id_veiculo": "V0073",
+    "data_reserva": "2026-09-07",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00124",
+    "id_cliente": "C0049",
+    "id_veiculo": "V0008",
+    "data_reserva": "2026-10-05",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00125",
+    "id_cliente": "C0018",
+    "id_veiculo": "V0020",
+    "data_reserva": "2026-10-10",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00126",
+    "id_cliente": "C0019",
+    "id_veiculo": "V0012",
+    "data_reserva": "2026-09-16",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00127",
+    "id_cliente": "C0007",
+    "id_veiculo": "V0078",
+    "data_reserva": "2026-10-07",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00128",
+    "id_cliente": "C0028",
+    "id_veiculo": "V0007",
+    "data_reserva": "2026-09-08",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00129",
+    "id_cliente": "C0028",
+    "id_veiculo": "V0074",
+    "data_reserva": "2026-09-04",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00130",
+    "id_cliente": "C0042",
+    "id_veiculo": "V0021",
+    "data_reserva": "2026-09-01",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00131",
+    "id_cliente": "C0021",
+    "id_veiculo": "V0062",
+    "data_reserva": "2026-09-18",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00132",
+    "id_cliente": "C0026",
+    "id_veiculo": "V0046",
+    "data_reserva": "2026-09-12",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00133",
+    "id_cliente": "C0039",
+    "id_veiculo": "V0080",
+    "data_reserva": "2026-10-03",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00134",
+    "id_cliente": "C0011",
+    "id_veiculo": "V0006",
+    "data_reserva": "2026-10-13",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00135",
+    "id_cliente": "C0004",
+    "id_veiculo": "V0007",
+    "data_reserva": "2026-09-04",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00136",
+    "id_cliente": "C0005",
+    "id_veiculo": "V0049",
+    "data_reserva": "2026-09-20",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00137",
+    "id_cliente": "C0044",
+    "id_veiculo": "V0042",
+    "data_reserva": "2026-09-12",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00138",
+    "id_cliente": "C0014",
+    "id_veiculo": "V0075",
+    "data_reserva": "2026-10-05",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00139",
+    "id_cliente": "C0019",
+    "id_veiculo": "V0006",
+    "data_reserva": "2026-09-22",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00140",
+    "id_cliente": "C0005",
+    "id_veiculo": "V0080",
+    "data_reserva": "2026-09-03",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00141",
+    "id_cliente": "C0024",
+    "id_veiculo": "V0065",
+    "data_reserva": "2026-09-18",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00142",
+    "id_cliente": "C0026",
+    "id_veiculo": "V0029",
+    "data_reserva": "2026-10-13",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00143",
+    "id_cliente": "C0017",
+    "id_veiculo": "V0078",
+    "data_reserva": "2026-10-01",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00144",
+    "id_cliente": "C0039",
+    "id_veiculo": "V0018",
+    "data_reserva": "2026-09-29",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00145",
+    "id_cliente": "C0003",
+    "id_veiculo": "V0067",
+    "data_reserva": "2026-09-10",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00146",
+    "id_cliente": "C0001",
+    "id_veiculo": "V0056",
+    "data_reserva": "2026-09-04",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00147",
+    "id_cliente": "C0012",
+    "id_veiculo": "V0050",
+    "data_reserva": "2026-09-08",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00148",
+    "id_cliente": "C0022",
+    "id_veiculo": "V0071",
+    "data_reserva": "2026-09-24",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00149",
+    "id_cliente": "C0022",
+    "id_veiculo": "V0045",
+    "data_reserva": "2026-09-23",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00150",
+    "id_cliente": "C0018",
+    "id_veiculo": "V0035",
+    "data_reserva": "2026-10-07",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00151",
+    "id_cliente": "C0009",
+    "id_veiculo": "V0059",
+    "data_reserva": "2026-09-09",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00152",
+    "id_cliente": "C0030",
+    "id_veiculo": "V0067",
+    "data_reserva": "2026-10-05",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00153",
+    "id_cliente": "C0034",
+    "id_veiculo": "V0023",
+    "data_reserva": "2026-10-07",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00154",
+    "id_cliente": "C0030",
+    "id_veiculo": "V0034",
+    "data_reserva": "2026-09-20",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00155",
+    "id_cliente": "C0031",
+    "id_veiculo": "V0055",
+    "data_reserva": "2026-09-09",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00156",
+    "id_cliente": "C0039",
+    "id_veiculo": "V0013",
+    "data_reserva": "2026-09-04",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00157",
+    "id_cliente": "C0040",
+    "id_veiculo": "V0057",
+    "data_reserva": "2026-09-11",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00158",
+    "id_cliente": "C0045",
+    "id_veiculo": "V0062",
+    "data_reserva": "2026-09-12",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00159",
+    "id_cliente": "C0033",
+    "id_veiculo": "V0041",
+    "data_reserva": "2026-09-16",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00160",
+    "id_cliente": "C0046",
+    "id_veiculo": "V0070",
+    "data_reserva": "2026-09-21",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00161",
+    "id_cliente": "C0016",
+    "id_veiculo": "V0010",
+    "data_reserva": "2026-10-08",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00162",
+    "id_cliente": "C0025",
+    "id_veiculo": "V0036",
+    "data_reserva": "2026-10-15",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00163",
+    "id_cliente": "C0012",
+    "id_veiculo": "V0066",
+    "data_reserva": "2026-10-06",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00164",
+    "id_cliente": "C0032",
+    "id_veiculo": "V0041",
+    "data_reserva": "2026-10-05",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00165",
+    "id_cliente": "C0031",
+    "id_veiculo": "V0029",
+    "data_reserva": "2026-09-25",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00166",
+    "id_cliente": "C0025",
+    "id_veiculo": "V0014",
+    "data_reserva": "2026-10-06",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00167",
+    "id_cliente": "C0049",
+    "id_veiculo": "V0019",
+    "data_reserva": "2026-09-14",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00168",
+    "id_cliente": "C0012",
+    "id_veiculo": "V0075",
+    "data_reserva": "2026-09-08",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00169",
+    "id_cliente": "C0037",
+    "id_veiculo": "V0037",
+    "data_reserva": "2026-09-21",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00170",
+    "id_cliente": "C0032",
+    "id_veiculo": "V0024",
+    "data_reserva": "2026-09-28",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00171",
+    "id_cliente": "C0050",
+    "id_veiculo": "V0002",
+    "data_reserva": "2026-10-13",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00172",
+    "id_cliente": "C0014",
+    "id_veiculo": "V0004",
+    "data_reserva": "2026-09-18",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00173",
+    "id_cliente": "C0016",
+    "id_veiculo": "V0015",
+    "data_reserva": "2026-10-02",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00174",
+    "id_cliente": "C0041",
+    "id_veiculo": "V0069",
+    "data_reserva": "2026-09-18",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00175",
+    "id_cliente": "C0024",
+    "id_veiculo": "V0026",
+    "data_reserva": "2026-10-11",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00176",
+    "id_cliente": "C0005",
+    "id_veiculo": "V0047",
+    "data_reserva": "2026-10-03",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00177",
+    "id_cliente": "C0005",
+    "id_veiculo": "V0060",
+    "data_reserva": "2026-09-16",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00178",
+    "id_cliente": "C0043",
+    "id_veiculo": "V0049",
+    "data_reserva": "2026-10-03",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00179",
+    "id_cliente": "C0049",
+    "id_veiculo": "V0042",
+    "data_reserva": "2026-10-06",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00180",
+    "id_cliente": "C0012",
+    "id_veiculo": "V0015",
+    "data_reserva": "2026-09-23",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00181",
+    "id_cliente": "C0010",
+    "id_veiculo": "V0064",
+    "data_reserva": "2026-09-17",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00182",
+    "id_cliente": "C0011",
+    "id_veiculo": "V0043",
+    "data_reserva": "2026-10-02",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00183",
+    "id_cliente": "C0038",
+    "id_veiculo": "V0009",
+    "data_reserva": "2026-09-05",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00184",
+    "id_cliente": "C0014",
+    "id_veiculo": "V0018",
+    "data_reserva": "2026-10-15",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00185",
+    "id_cliente": "C0015",
+    "id_veiculo": "V0065",
+    "data_reserva": "2026-09-18",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00186",
+    "id_cliente": "C0026",
+    "id_veiculo": "V0035",
+    "data_reserva": "2026-10-03",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00187",
+    "id_cliente": "C0049",
+    "id_veiculo": "V0033",
+    "data_reserva": "2026-09-11",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00188",
+    "id_cliente": "C0024",
+    "id_veiculo": "V0051",
+    "data_reserva": "2026-10-04",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00189",
+    "id_cliente": "C0020",
+    "id_veiculo": "V0077",
+    "data_reserva": "2026-09-06",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00190",
+    "id_cliente": "C0009",
+    "id_veiculo": "V0013",
+    "data_reserva": "2026-09-22",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00191",
+    "id_cliente": "C0044",
+    "id_veiculo": "V0048",
+    "data_reserva": "2026-09-27",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00192",
+    "id_cliente": "C0037",
+    "id_veiculo": "V0039",
+    "data_reserva": "2026-09-26",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00193",
+    "id_cliente": "C0044",
+    "id_veiculo": "V0063",
+    "data_reserva": "2026-09-08",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00194",
+    "id_cliente": "C0010",
+    "id_veiculo": "V0006",
+    "data_reserva": "2026-09-20",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00195",
+    "id_cliente": "C0013",
+    "id_veiculo": "V0030",
+    "data_reserva": "2026-10-10",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00196",
+    "id_cliente": "C0034",
+    "id_veiculo": "V0028",
+    "data_reserva": "2026-09-24",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00197",
+    "id_cliente": "C0002",
+    "id_veiculo": "V0065",
+    "data_reserva": "2026-10-03",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00198",
+    "id_cliente": "C0006",
+    "id_veiculo": "V0019",
+    "data_reserva": "2026-09-25",
+    "status": "FINALIZADA"
+  },
+  {
+    "id_reserva": "R00199",
+    "id_cliente": "C0039",
+    "id_veiculo": "V0052",
+    "data_reserva": "2026-09-17",
+    "status": "CONFIRMADA"
+  },
+  {
+    "id_reserva": "R00200",
+    "id_cliente": "C0020",
+    "id_veiculo": "V0035",
+    "data_reserva": "2026-09-04",
+    "status": "CANCELADA"
+  },
+  {
+    "id_reserva": "R00011",
+    "id_cliente": "C0021",
+    "id_veiculo": "V0054",
+    "data_reserva": "2026-10-02",
+    "status": "FINALIZADA"
+  }
+]

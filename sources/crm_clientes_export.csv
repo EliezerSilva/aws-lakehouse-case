@@ -1,0 +1,51 @@
+id_cliente,segmento,uf,status
+C0001,Pessoa fisica,RJ,ATIVO
+C0002,Corporativo,SP,ATIVO
+C0003,Pessoa fisica,PR,ATIVO
+C0004,Pessoa fisica,RJ,ATIVO
+C0005,Corporativo,RJ,ATIVO
+C0006,Corporativo,RJ,ATIVO
+C0007,Pessoa fisica,RJ,ATIVO
+C0008,Pessoa fisica,RJ,ATIVO
+C0009,Pessoa fisica,PR,ATIVO
+C0010,Corporativo,MG,ATIVO
+C0011,Pessoa fisica,SP,ATIVO
+C0012,Pessoa fisica,MG,ATIVO
+C0013,Pessoa fisica,SP,ATIVO
+C0014,Pessoa fisica,PR,ATIVO
+C0015,Corporativo,MG,ATIVO
+C0016,Corporativo,PR,ATIVO
+C0017,Pessoa fisica,SP,ATIVO
+C0018,Corporativo,RJ,ATIVO
+C0019,Corporativo,PR,ATIVO
+C0020,Pessoa fisica,SP,ATIVO
+C0021,Pessoa fisica,SP,ATIVO
+C0022,Pessoa fisica,SP,ATIVO
+C0023,Pessoa fisica,PR,ATIVO
+C0024,Pessoa fisica,MG,ATIVO
+C0025,Pessoa fisica,MG,ATIVO
+C0026,Pessoa fisica,PR,ATIVO
+C0027,Pessoa fisica,PR,ATIVO
+C0028,Corporativo,SP,ATIVO
+C0029,Pessoa fisica,MG,ATIVO
+C0030,Pessoa fisica,RJ,ATIVO
+C0031,Pessoa fisica,RJ,ATIVO
+C0032,Corporativo,MG,ATIVO
+C0033,Corporativo,MG,ATIVO
+C0034,Corporativo,PR,ATIVO
+C0035,Pessoa fisica,SP,ATIVO
+C0036,Pessoa fisica,SP,ATIVO
+C0037,Pessoa fisica,PR,ATIVO
+C0038,Pessoa fisica,RJ,ATIVO
+C0039,Pessoa fisica,SP,ATIVO
+C0040,Corporativo,SP,ATIVO
+C0041,Corporativo,PR,ATIVO
+C0042,Pessoa fisica,SP,ATIVO
+C0043,Corporativo,RJ,ATIVO
+C0044,Pessoa fisica,SP,ATIVO
+C0045,Pessoa fisica,SP,ATIVO
+C0046,Corporativo,SP,ATIVO
+C0047,Corporativo,PR,ATIVO
+C0048,Corporativo,PR,ATIVO
+C0049,Pessoa fisica,SP,ATIVO
+C0050,Pessoa fisica,RJ,ATIVO
