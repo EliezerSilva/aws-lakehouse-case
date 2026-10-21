@@ -7,3 +7,6 @@ terraform.tfstate*
 
 # Resultados locais do Lakehouse
 output/
+
+# Datasets publicos baixados localmente
+data_public/

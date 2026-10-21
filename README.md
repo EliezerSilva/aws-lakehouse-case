@@ -121,3 +121,57 @@ Nao existem dados ou integracoes reais da Localiza&Co.
 A solucao ainda nao possui orquestracao em producao,
 validacao referencial completa ou escrita transacional
 atomica entre as camadas.
+
+## Estudo com dados publicos - NYC TLC
+
+O repositorio tambem inclui um estudo independente
+de mobilidade urbana com dados publicos da NYC Taxi
+and Limousine Commission.
+
+Fonte: Yellow Taxi Trip Records, janeiro de 2026.
+
+O processamento ocorreu localmente com PySpark 3.5.6.
+Os resultados foram armazenados em Parquet e publicados
+posteriormente no Amazon S3.
+
+### Resultados validados
+
+| Camada | Registros |
+|---|---:|
+| Bronze | 3.724.889 |
+| Silver | 3.724.888 |
+| Quarentena | 1 |
+| Gold | 7.551 |
+
+Foram aprovados dois testes especificos do NYC TLC,
+alem dos tres testes do laboratorio sintetico.
+
+### Documentacao
+
+- `docs/nyc_tlc/quality_contract.md`
+- `docs/nyc_tlc/execution_report.md`
+
+### Codigo
+
+- `jobs/nyc_tlc/transform_silver.py`
+- `scripts/materialize_nyc_tlc.py`
+- `tests/test_nyc_tlc_silver.py`
+
+### Execucao local
+
+    source .venv/bin/activate
+    export SPARK_LOCAL_IP=127.0.0.1
+    python scripts/materialize_nyc_tlc.py
+
+O arquivo publico deve ser baixado previamente
+para `data_public/nyc_tlc/raw/`.
+
+### Limites
+
+A execucao comprovada utilizou PySpark local.
+O Amazon S3 foi usado como armazenamento.
+
+AWS Glue, Athena e orquestracao gerenciada
+permanecem como evolucoes previstas.
+
+Este estudo nao possui vinculo com empresa cliente.
