@@ -26,3 +26,98 @@ Conta AWS com permissoes adequadas, S3, IAM role de execucao Glue, Glue Spark jo
 - Nao grave credenciais no Git; use IAM/STS e principio do menor privilegio.
 - `overwrite` foi usado apenas para o laboratorio; para producao, planeje execucao idempotente e publicacao atomica.
 - Nao confunda sucesso tecnico do laboratorio com arquitetura pronta para producao.
+
+## Execucao validada - Plano B
+
+Em 21/10/2026, o pipeline foi executado localmente com
+Python 3.11.15 e PySpark 3.5.6.
+
+Os resultados foram materializados em arquivos Parquet
+e publicados no Amazon S3, na regiao us-east-2.
+
+Esta execucao nao utilizou AWS Glue nem Athena.
+
+### Resultados
+
+| Camada | Registros |
+|---|---:|
+| Bronze | 202 |
+| Silver | 199 |
+| Quarentena | 3 |
+| Gold | 144 |
+
+Indicadores Gold:
+
+- 199 locacoes consolidadas
+- 6 lojas
+- Receita sintetica de R$ 167.767,51
+
+Qualidade dos dados:
+
+- 1 registro rejeitado por valor negativo
+- 2 registros rejeitados por duplicidade conflitante
+
+### Evidencias
+
+Identificador da execucao:
+
+`run_20261021T122829095198Z`
+
+Bucket:
+
+`aws-lakehouse-case-lab-2026`
+
+Prefixo S3:
+
+`runs/run_20261021T122829095198Z/`
+
+Foram publicados cinco arquivos Parquet e um
+`validation_report.json`.
+
+O SHA-256 do relatorio local foi comparado com
+o relatorio recuperado do S3, sem divergencias.
+
+### Execucao local
+
+Ativar o ambiente virtual e executar:
+
+    source .venv/bin/activate
+    export SPARK_LOCAL_IP=127.0.0.1
+    python scripts/materialize_local.py
+
+Cada execucao cria um diretorio proprio em `output/`.
+
+### Testes automatizados
+
+Comando:
+
+    python -m pytest tests/test_silver.py -v
+
+Resultado em 21/10/2026:
+
+**3 testes aprovados em 23,72 segundos.**
+
+Os testes cobrem regras da transformacao Silver.
+Nao representam cobertura completa das demais camadas.
+
+### Estado dos servicos AWS
+
+- Amazon S3: publicacao confirmada.
+- AWS Glue: scripts preparados; execucao pendente.
+- Amazon Athena: consultas nao executadas.
+- IAM: role Glue configurada, ainda sem teste de runtime.
+
+As restricoes da conta AWS impedem atualmente
+a execucao gerenciada pretendida.
+
+### Limites desta demonstracao
+
+O projeto utiliza dez fontes sinteticas, mas o
+pipeline funcional processa somente o arquivo
+`erp_locacoes_cabecalho_2026.csv`.
+
+Nao existem dados ou integracoes reais da Localiza&Co.
+
+A solucao ainda nao possui orquestracao em producao,
+validacao referencial completa ou escrita transacional
+atomica entre as camadas.
