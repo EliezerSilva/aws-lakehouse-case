@@ -24,9 +24,14 @@ A DAG em dags/banking_daily_dag.py usa Airflow 2.10.x, retries, dependencia entr
     pip install -r interview_lab/requirements-kafka.txt
     python interview_lab/kafka/producer.py
 
+O produtor usa confluent-kafka/librdkafka e imprime `PRODUCER PASS | Published=10` somente apos receber as 10 confirmacoes de entrega do broker. Use localhost IPv4 (127.0.0.1), pois o broker Docker publica apenas nessa interface. O topico e criado previamente com 3 particoes e fator de replicacao 1. `enable.idempotence` nao impede novos eventos duplicados caso o script inteiro seja disparado novamente.
+
 Para Spark 3.5.6 e Scala 2.12 (ajuste conforme instalacao):
 
-    spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.6 interview_lab/kafka/stream_to_bronze.py --output output/interview_kafka/bronze --checkpoint output/interview_kafka/checkpoints
+    mkdir -p output/interview_kafka
+    spark-submit --master 'local[2]' --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.5.6 interview_lab/kafka/stream_to_bronze.py --bootstrap 127.0.0.1:9092 --output output/interview_kafka/bronze --checkpoint output/interview_kafka/checkpoints
+
+Por padrao, a streaming query executa com `availableNow=True` e encerra depois de consumir os eventos disponiveis. Um checkpoint preserva o progresso; para uma demonstracao nova, use um par de caminhos de output/checkpoint novos. Nao reutilize caminhos de uma execucao com outro formato ou topico.
 
 O consumidor Kafka grava Bronze separadamente. **A ligacao Kafka Bronze -> Silver batch ainda nao foi feita.** Nao presume exactly-once de ponta a ponta. Chaves iguais tendem a mesma particao com particionamento estavel; so ha ordenacao dentro da particao, nao global.
 
