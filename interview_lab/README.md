@@ -48,3 +48,13 @@ O consumidor Kafka grava Bronze separadamente. **A ligacao Kafka Bronze -> Silve
 6. Desenhe upsert incremental/replay; diferencie overwrite Parquet de MERGE.
 7. Airflow: retries, dependencias, catchup e idempotencia.
 8. Kafka: topicos, particoes, chave, offsets, consumer groups e replay.
+
+## AWS Glue Studio e Airflow gerenciado (opcional)
+
+- Notebook Glue Studio, autoexplicativo: [notebooks/aws_glue_banking_demo.ipynb](notebooks/aws_glue_banking_demo.ipynb)
+- DAG Airflow/MWAA -> Glue: [dags/mwaa_glue_banking_dag.py](dags/mwaa_glue_banking_dag.py)
+- Guia de implantacao passo a passo, permissões, riscos e custos: [docs/AWS_DEMO.md](docs/AWS_DEMO.md)
+
+`bash interview_lab/aws/upload_aws_demo.sh` opera em modo de conferencia. Para copiar os tres pequenos artefatos sinteticos ao S3, use `--apply` **somente apos confirmar conta, IAM, bucket e custos**. Nada inicia Glue ou MWAA automaticamente.
+
+O notebook pode ser importado no AWS Glue Studio; uma execucao remota real requer que o usuario configure a role de sessao e execute as celulas na conta autorizada. A DAG MWAA precisa de ambiente existente e Glue job registrado, e nao foi implantada nem executada na AWS nesta entrega.
