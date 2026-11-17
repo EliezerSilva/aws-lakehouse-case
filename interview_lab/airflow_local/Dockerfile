@@ -5,6 +5,8 @@ USER root
 RUN apt-get update \
     && apt-get install -y --no-install-recommends openjdk-17-jre-headless \
     && rm -rf /var/lib/apt/lists/*
+RUN mkdir -p /opt/airflow/local_state /opt/airflow/output \
+    && chown -R airflow:root /opt/airflow/local_state /opt/airflow/output
 
 USER airflow
 RUN pip install --no-cache-dir "pyspark==3.5.6"
