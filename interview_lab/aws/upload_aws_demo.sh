@@ -2,7 +2,7 @@
 set -euo pipefail
 
 # Explicit opt-in to small S3 writes, never triggers billable Glue or MWAA compute.
-REPO_ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
+LAB_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 REGION="${AWS_REGION:-us-east-2}"
 BUCKET="${AWS_LAB_BUCKET:-aws-lakehouse-case-lab-2026}"
 PREFIX="interview-lab"
@@ -19,10 +19,10 @@ aws s3api head-bucket --bucket "${BUCKET}" --region "${REGION}" >/dev/null
 TMPDIR_WORK="$(mktemp -d)"
 trap 'rm -rf "${TMPDIR_WORK}"' EXIT
 (
-  cd "${REPO_ROOT}/src"
+  cd "${LAB_ROOT}/src"
   zip -q -r "${TMPDIR_WORK}/banking_lab.zip" banking_lab -x '*/__pycache__/*' '*.pyc'
 )
-aws s3 cp "${REPO_ROOT}/data/transactions.csv" "s3://${BUCKET}/${PREFIX}/input/transactions.csv" --region "${REGION}"
-aws s3 cp "${REPO_ROOT}/aws/glue_job_aws.py" "s3://${BUCKET}/${PREFIX}/scripts/glue_job_aws.py" --region "${REGION}"
+aws s3 cp "${LAB_ROOT}/data/transactions.csv" "s3://${BUCKET}/${PREFIX}/input/transactions.csv" --region "${REGION}"
+aws s3 cp "${LAB_ROOT}/aws/glue_job_aws.py" "s3://${BUCKET}/${PREFIX}/scripts/glue_job_aws.py" --region "${REGION}"
 aws s3 cp "${TMPDIR_WORK}/banking_lab.zip" "s3://${BUCKET}/${PREFIX}/libs/banking_lab.zip" --region "${REGION}"
 echo "SUCCESS: inputs and code uploaded; AWS Glue/MWAA NOT started."
