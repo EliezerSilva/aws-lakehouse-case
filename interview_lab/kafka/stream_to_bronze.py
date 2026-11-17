@@ -19,6 +19,7 @@ def main():
     parser.add_argument("--topic", default="synthetic_transactions_raw")
     parser.add_argument("--output", required=True)
     parser.add_argument("--checkpoint", required=True)
+    parser.add_argument("--follow", action="store_true", help="Keep consuming instead of processing currently available events and exiting")
     args = parser.parse_args()
     spark = SparkSession.builder.appName("synthetic-kafka-bronze").getOrCreate()
     stream = (spark.readStream.format("kafka")
@@ -35,14 +36,23 @@ def main():
         .withColumn("payload", F.from_json("raw_payload", MESSAGE_SCHEMA))
         .select("*", "payload.*").drop("payload")
     )
-    query = (bronze.writeStream.format("parquet")
-             .option("path", args.output)
-             .option("checkpointLocation", args.checkpoint)
-             .outputMode("append").start())
+    writer = (
+        bronze.writeStream.format("parquet")
+        .option("path", args.output)
+        .option("checkpointLocation", args.checkpoint)
+        .outputMode("append")
+    )
+    if not args.follow:
+        writer = writer.trigger(availableNow=True)
+    query = writer.start()
     try:
         query.awaitTermination()
+        if query.exception() is not None:
+            raise RuntimeError(str(query.exception()))
+        print("KAFKA_BRONZE_STREAM: SUCCESS")
     finally:
-        query.stop()
+        if query.isActive:
+            query.stop()
         spark.stop()
 
 
