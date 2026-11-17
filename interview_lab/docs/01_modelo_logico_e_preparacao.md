@@ -37,7 +37,7 @@ Regras **didaticas**: ids nao vazios; valor > 0; timestamp parseavel; status na 
                                  Auditoria e reconciliacao
 
 Airflow (demonstracao) define dependencias check_source -> transform -> verify_output.
-Kafka e CSV sao alternativas de origem. O consumidor Kafka escreve Bronze Parquet, mas ainda NAO esta ligado ao job batch Silver/Gold. A DAG atual usa CSV local e execucao manual. Nao foi implantado um orquestrador gerenciado.
+Kafka e CSV sao alternativas de origem. Em 17/11/2026, foi validado o fluxo Kafka -> Spark Streaming -> Bronze Parquet e, em seguida, um job batch separado `kafka/curate_bronze.py` para Quarentena/Silver/Gold, com verificacao independente `kafka/verify_curated.py`. A DAG Airflow local usa CSV e execucao manual, independentemente do Kafka e do Glue AWS. Nao foi implantado um orquestrador gerenciado.
 
 ## 3. Implementacao: passos e justificativas
 
