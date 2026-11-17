@@ -20,7 +20,10 @@ A DAG em dags/banking_daily_dag.py usa Airflow 2.10.x, retries, dependencia entr
 
 ## Kafka (exemplo, nao implantado)
 
-    docker compose -f interview_lab/docker-compose.kafka.yml up -d
+    docker compose -f interview_lab/docker-compose.kafka.yml up -d kafka-ui kafka-ui-proxy
+
+A interface visual do Kafka (Provectus Kafka UI) fica em http://localhost:8089 e usa o cluster `banking-lab`. Na interface, abra Topics -> synthetic_transactions_raw -> Messages para mostrar os 10 eventos sinteticos e as 3 particoes. O acesso via navegador e restrito a 127.0.0.1, sem autenticacao (somente desenvolvimento). A UI compartilha a rede do broker e recebe acesso HTTP via proxy Nginx, evitando alterar/recriar o broker e perder as mensagens de teste existentes. Se esta for uma instalacao nova, inicie com `docker compose -f interview_lab/docker-compose.kafka.yml up -d`.
+
     pip install -r interview_lab/requirements-kafka.txt
     python interview_lab/kafka/producer.py
 
