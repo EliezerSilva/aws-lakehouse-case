@@ -1,4 +1,20 @@
-# Laboratorio independente: PySpark, Airflow e Kafka
+# Laboratório AWS / PySpark / Kafka / Airflow — reprodução e evidências
+
+**[COMECE AQUI: guia completo de instalação e reprodução](docs/GUIA_REPRODUCAO.md)** · **[Jornada AWS editável no Excalidraw](docs/architecture_aws_interview.excalidraw)** · **[Evidências e capturas](docs/EVIDENCIAS.md)**
+
+```mermaid
+flowchart LR
+  K[Kafka 10 eventos] --> S[Spark Streaming] --> B[Bronze Parquet]
+  B --> Q{Qualidade PySpark}
+  Q -->|3 inválidos| X[Quarentena]
+  Q -->|7 válidos| V[Silver 5 finais]
+  V --> G[Gold A100=150 / A300=40]
+  A[Airflow local CSV] -. fluxo independente .-> L[Bronze/Silver/Gold locais]
+  W[AWS Glue Studio] -. execução independente .-> S3[Amazon S3 + relatório PASS]
+```
+
+> **Atenção:** agentes IA/arena-skill e MWAA são propostas ou exemplos, não partes executadas do fluxo. As imagens de evidência precisam ser capturadas e sanitizadas antes de publicação.
+
 
 Este modulo contem somente **transacoes bancarias sinteticas**, criadas como exercicio de logica, qualidade e engenharia de dados. **Nao representa nenhum banco, cliente ou projeto real.** Ele nao modifica o fluxo de mobilidade ja documentado na raiz.
 
