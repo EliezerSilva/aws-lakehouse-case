@@ -72,6 +72,7 @@ def main():
 
     producer = Producer({
         "bootstrap.servers": args.bootstrap,
+        "broker.address.family": "v4",
         "client.id": "banking-transactions-synthetic-producer",
         "enable.idempotence": True,
         "acks": "all",
