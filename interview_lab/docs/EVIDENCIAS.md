@@ -12,10 +12,47 @@
 | Kafka 3.9.0 | 10 mensagens no tópico, 3 partições | Kafka UI local e console consumer | PASS |
 | Spark Streaming 3.5.6 | 10 eventos consumidos e Bronze Parquet | `output/interview_kafka/bronze`, checkpoint | PASS |
 | Kafka Bronze → Quarentena/Silver/Gold | `KAFKA_CURATED_PASS | Raw=10 | Valid=7 | Quarantine=3 | Silver=5 | Replay=0` | `output/interview_kafka/curated-demo-01/validation_report.json` | PASS |
-| Verificação independente de arquivos | `KAFKA_CURATED_VERIFICATION_PASS | Raw=10 | Quarantine=3 | Silver=5` | `kafka/verify_curated.py` | PASS |
+| Verificação independente — execução 01 | `KAFKA_CURATED_VERIFICATION_PASS | Raw=10 | Quarantine=3 | Silver=5` | `output/interview_kafka/curated-demo-01` | PASS |
+| Segunda execução isolada — execução 02 | `KAFKA_CURATED_PASS | Raw=10 | Valid=7 | Quarantine=3 | Silver=5 | Replay=0`; Gold A100=150.00, A300=40.00 | `output/interview_kafka/curated-demo-02/validation_report.json` | PASS |
+| Verificação independente — execução 02 | `KAFKA_CURATED_VERIFICATION_PASS | Raw=10 | Quarantine=3 | Silver=5`; Gold A100=150.00, A300=40.00 | `kafka/verify_curated.py --output output/interview_kafka/curated-demo-02` | PASS |
 | Testes CI | GitHub Actions em 17/11/2026 | [Run 44171328979](https://github.com/EliezerSilva/aws-lakehouse-case/actions/runs/44171328979) e [run 44171317787](https://github.com/EliezerSilva/aws-lakehouse-case/actions/runs/44171317787) | SUCCESS |
 | MWAA → Glue | DAG e script preparados, sem execução remota | `dags/mwaa_glue_banking_dag.py` | NÃO EXECUTADO |
 | Agentes IA / arena-skill | Discussão de arquitetura, sem integração neste repositório | Diagrama | PROPOSTA |
+
+## Reprodutibilidade confirmada — duas execuções isoladas (17/11/2026)
+
+As saídas abaixo foram informadas pelo operador a partir de execuções reais no Mac (PySpark 3.5.6 e Java 17). A validação independente lê os arquivos Parquet persistidos e compara com o relatório local. As duas execuções usam **o mesmo conjunto de dez eventos**; logo, demonstram repetibilidade e isolamento por diretório, **não** tolerância a falhas, alta disponibilidade ou idempotência transacional ponta a ponta.
+
+| Medida | `curated-demo-01` | `curated-demo-02` |
+|---|---:|---:|
+| Bronze | 10 | 10 |
+| Válidos | 7 | 7 |
+| Quarentena | 3 | 3 |
+| Silver | 5 | 5 |
+| Replays de `event_id` | 0 | 0 |
+| Gold A100 | 150.00 | 150.00 |
+| Gold A300 | 40.00 | 40.00 |
+| Execução da curadoria | PASS | PASS |
+| Verificação independente | PASS | PASS |
+
+Trechos essenciais da saída da segunda execução, omitindo ruído de inicialização do Spark:
+
+```text
+KAFKA_CURATED_PASS | Raw=10 | Valid=7 | Quarantine=3 | Silver=5 | Replay=0
+GOLD_TOTALS {"A100": "150.00", "A300": "40.00"}
+EVIDENCE output/interview_kafka/curated-demo-02/validation_report.json
+```
+
+Saída da verificação independente da segunda execução:
+
+```text
+KAFKA_CURATED_VERIFICATION_PASS | Raw=10 | Quarantine=3 | Silver=5
+GOLD_TOTALS {"A100": "150.00", "A300": "40.00"}
+```
+
+A tentativa de executar novamente com `--output output/interview_kafka/curated-demo-01` foi interrompida, como projetado, com `FileExistsError`: o job recusa sobrescrever uma execução existente. Isso comprova a proteção de diretório, mas não substitui uma estratégia transacional de produção.
+
+Os trechos acima foram transcritos de saídas de terminal fornecidas pelo operador. Os relatórios completos permanecem locais; **não** são anexos públicos do repositório, nem prints autenticados automaticamente pelo GitHub Actions.
 
 ## Links públicos e privados
 
@@ -48,7 +85,9 @@ Se os prints forem incluídos no Git, substitua este checklist pelos links relat
 
 ```bash
 python interview_lab/kafka/verify_curated.py --output output/interview_kafka/curated-demo-01
+python interview_lab/kafka/verify_curated.py --output output/interview_kafka/curated-demo-02
 cat output/interview_kafka/curated-demo-01/validation_report.json
+cat output/interview_kafka/curated-demo-02/validation_report.json
 ```
 
 O arquivo de saída é gerado localmente e pode estar ignorado pelo `.gitignore`. Não versionar diretórios de dados Parquet ou checkpoints. Publique apenas capturas revisadas e relatórios sanitizados, se desejar.
