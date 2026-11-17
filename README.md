@@ -175,3 +175,7 @@ AWS Glue, Athena e orquestracao gerenciada
 permanecem como evolucoes previstas.
 
 Este estudo nao possui vinculo com empresa cliente.
+
+## Estudo complementar independente: logica PySpark
+
+O diretorio [interview_lab](interview_lab/README.md) contem um laboratorio isolado com dados bancarios 100% sinteticos, transformacoes PySpark, testes e exemplos opcionais de Airflow e Kafka. Nao faz parte do pipeline de mobilidade validado acima.
