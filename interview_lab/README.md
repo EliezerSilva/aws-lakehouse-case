@@ -36,7 +36,27 @@ Para Spark 3.5.6 e Scala 2.12 (ajuste conforme instalacao):
 
 Por padrao, a streaming query executa com `availableNow=True` e encerra depois de consumir os eventos disponiveis. Um checkpoint preserva o progresso; para uma demonstracao nova, use um par de caminhos de output/checkpoint novos. Nao reutilize caminhos de uma execucao com outro formato ou topico.
 
-O consumidor Kafka grava Bronze separadamente. **A ligacao Kafka Bronze -> Silver batch ainda nao foi feita.** Nao presume exactly-once de ponta a ponta. Chaves iguais tendem a mesma particao com particionamento estavel; so ha ordenacao dentro da particao, nao global.
+### Kafka Bronze -> qualidade, quarentena, Silver e Gold
+
+O consumidor de Kafka grava **apenas a Bronze**; a curadoria e um **job batch PySpark separado** que le o Parquet ja persistido e reutiliza o contrato de validacao e a deduplicacao deterministica do laboratorio. Nao publica no Kafka nem altera a Bronze, o Airflow ou o notebook AWS.
+
+Execute apos a validacao do streaming, **uma unica vez por diretorio de saida**:
+
+    export SPARK_LOCAL_IP=127.0.0.1
+    spark-submit --master 'local[2]' interview_lab/kafka/curate_bronze.py \
+      --input output/interview_kafka/bronze \
+      --output output/interview_kafka/curated-demo-01 \
+      --expect-demo
+
+Verifique os arquivos realmente gravados:
+
+    python interview_lab/kafka/verify_curated.py --output output/interview_kafka/curated-demo-01
+
+Esperado: \`KAFKA_CURATED_PASS | Raw=10 | Valid=7 | Quarantine=3 | Silver=5 | Replay=0\`, Gold A100=150.00 / A300=40.00 e \`KAFKA_CURATED_VERIFICATION_PASS\`. As camadas curadas incluem rastreabilidade por \`topic\`, \`partition\`, \`offset\` e \`raw_payload\`. O relatorio \`validation_report.json\` e publicado por ultimo, depois de verificar os arquivos Parquet.
+
+O job trata **replay exato de event_id + payload igual**, mantendo um so evento para a regra de negocio; se o mesmo event_id tiver payload diferente, falha para revisao. Eventos sem ID ficam na quarentena. Os offsets sao usados para rastreabilidade e desempate do replay, nao como versao de negocio. A deduplicacao entre transacoes utiliza o horario de evento e desempates documentados. O sample obrigatorio de 10 eventos so e cobrado com \`--expect-demo\`.
+
+Para nova demonstracao, escolha **outro diretorio de saida**, como \`curated-demo-02\`. Reutilizar \`curated-demo-01\` falha propositalmente em vez de sobrescrever resultados. O processo NAO e um pipeline unico de streaming ate Gold e nao garante exactly-once fim a fim. Para producao, seriam necessarios tabelas transacionais, politica de publicacao atomica, gestao de reprocesso e deduplicacao por contrato de origem. Chaves iguais tendem a mesma particao Kafka com particionamento estavel; a ordenacao do Kafka e garantida somente dentro de cada particao.
 
 ## Limites e seguranca
 
