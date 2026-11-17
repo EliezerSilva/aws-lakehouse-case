@@ -1,0 +1,43 @@
+name: banking-airflow-lab
+
+services:
+  airflow:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: banking-airflow-lab:2.10.5-spark3.5.6
+    restart: "no"
+    command: standalone
+    ports:
+      # Loopback only; avoids exposing the demo on the local network.
+      - "127.0.0.1:8088:8080"
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "False"
+      AIRFLOW__CORE__EXECUTOR: SequentialExecutor
+      AIRFLOW__CORE__DAGS_FOLDER: /opt/airflow/dags
+      AIRFLOW__CORE__PARALLELISM: "1"
+      AIRFLOW__CORE__MAX_ACTIVE_TASKS_PER_DAG: "1"
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: sqlite:////opt/airflow/local_state/airflow.db
+      AIRFLOW__WEBSERVER__EXPOSE_CONFIG: "False"
+      AIRFLOW__WEBSERVER__BASE_URL: http://localhost:8088
+      SPARK_LOCAL_IP: 127.0.0.1
+      PYSPARK_PYTHON: python
+      PYTHONUNBUFFERED: "1"
+    mem_limit: 4g
+    cpus: 4
+    volumes:
+      - airflow_state:/opt/airflow/local_state
+      - ./dags:/opt/airflow/dags:ro
+      - ./scripts:/opt/airflow/lab-scripts:ro
+      - ../src:/opt/airflow/lab-src:ro
+      - ../data:/opt/airflow/input:ro
+      - ../../output/airflow-local:/opt/airflow/output
+    healthcheck:
+      test: ["CMD-SHELL", "curl --fail --silent http://localhost:8080/health >/dev/null"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 100s
+
+volumes:
+  airflow_state:

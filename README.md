@@ -175,3 +175,24 @@ AWS Glue, Athena e orquestracao gerenciada
 permanecem como evolucoes previstas.
 
 Este estudo nao possui vinculo com empresa cliente.
+
+## Laboratório de entrevista: AWS, PySpark, Kafka, Airflow e qualidade
+
+**[Guia completo de instalação e reprodução](interview_lab/docs/GUIA_REPRODUCAO.md)** · **[Diagrama da jornada AWS (.excalidraw)](interview_lab/docs/architecture_aws_interview.excalidraw)** · **[Evidências verificáveis e checklist de prints](interview_lab/docs/EVIDENCIAS.md)**
+
+```mermaid
+flowchart LR
+  Kafka[Kafka 10 eventos] --> Streaming[Spark Streaming] --> Bronze[Bronze Parquet]
+  Bronze --> Quality{Contrato de qualidade}
+  Quality -->|3| Quarantine[Quarentena]
+  Quality -->|7| Silver[Silver 5 finais]
+  Silver --> Gold[Gold: A100=150 / A300=40]
+  Airflow[Airflow local CSV] -. independente .-> Local[Pipeline batch local]
+  Glue[AWS Glue Studio] -. independente .-> S3[Amazon S3]
+```
+
+Os componentes acima têm execução comprovada em laboratório com dados sintéticos, mas **não são um único pipeline orquestrado de ponta a ponta**. O guia separa resultados locais, AWS e propostas futuras. O diagrama editável inclui agentes IA/arena-skill como conceito não implantado. Capturas de tela não foram versionadas automaticamente: veja o checklist de sanitização antes de compartilhar.
+
+## Estudo complementar independente: logica PySpark
+
+O diretorio [interview_lab](interview_lab/README.md) contem um laboratorio isolado com dados bancarios 100% sinteticos, transformacoes PySpark, testes e exemplos opcionais de Airflow e Kafka. Nao faz parte do pipeline de mobilidade validado acima.
