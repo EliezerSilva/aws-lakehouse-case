@@ -1,6 +1,6 @@
 # aws-lakehouse-case
 
-Laboratorio AWS de Engenharia de Dados, com dataset 100% sintetico de mobilidade. Inspirado na organizacao Bronze / Silver / Gold / Control do repositorio `databricks-lakehouse-case`. **Nao e infraestrutura ou dado real da Localiza.**
+Laboratorio AWS de Engenharia de Dados, com dataset 100% sintetico de mobilidade. Inspirado na organizacao Bronze / Silver / Gold / Control do repositorio `databricks-lakehouse-case`. **Nao representa infraestrutura ou dados de nenhuma empresa.**
 
 ## Arquitetura
 
@@ -126,7 +126,7 @@ O projeto utiliza dez fontes sinteticas, mas o
 pipeline funcional processa somente o arquivo
 `erp_locacoes_cabecalho_2026.csv`.
 
-Nao existem dados ou integracoes reais da Localiza&Co.
+Nao existem dados ou integracoes reais de empresas.
 
 A solucao ainda nao possui orquestracao em producao,
 validacao referencial completa ou escrita transacional
