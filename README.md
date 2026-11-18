@@ -2,6 +2,16 @@
 
 Laboratorio AWS de Engenharia de Dados, com dataset 100% sintetico de mobilidade. Inspirado na organizacao Bronze / Silver / Gold / Control do repositorio `databricks-lakehouse-case`. **Nao e infraestrutura ou dado real da Localiza.**
 
+## Arquitetura
+
+![Arquitetura do projeto](docs/arquitetura/arquitetura.svg)
+
+Verde: executado e validado neste repositorio (PySpark local com publicacao no S3). Cinza tracejado: servicos AWS
+gerenciados previstos, com scripts prontos e execucao pendente. Lilas: padroes ja implementados e comprovados no
+[dbt-databricks-lakehouse-case](https://github.com/EliezerSilva/dbt-databricks-lakehouse-case) (contrato de dados,
+quarentena com ciclo de vida, reconciliacao, federacao, agente com LLM e CI), com a equivalencia AWS proposta ao lado.
+Fonte editavel: [`docs/arquitetura/arquitetura.excalidraw`](docs/arquitetura/arquitetura.excalidraw).
+
 ## Fontes
 10 arquivos de origem (CSV com separadores diferentes, TXT pipe, JSON array, JSONL); veja `sources/`. Somente `erp_locacoes_cabecalho_2026.csv` e processado na **primeira execucao** do pipeline. Os outros arquivos ficam preparados para etapas seguintes.
 
