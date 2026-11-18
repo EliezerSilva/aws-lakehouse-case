@@ -67,4 +67,4 @@ A escrita em Parquet nao implementa transacoes atomicas
 entre as camadas.
 
 Este laboratorio nao utiliza dados nem integracoes reais
-da Localiza&Co.
+de empresas.
